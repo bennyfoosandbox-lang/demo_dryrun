@@ -1,0 +1,39 @@
+<!--
+  PER-TOPIC INDEX TEMPLATE — regenerate {slug}/index.html each run.
+  Lists every digest for one topic, newest first.
+
+  Placeholders:
+    {{TOPIC}}   e.g. "AI Agents & Tooling"
+    {{COUNT}}   number of digests, e.g. "6"
+    {{ROWS}}    one <li> per digest (newest first) — see ROW MARKUP:
+      <li><a href="./{slug}-2026-Jul-23.html">Thursday, 23 July 2026</a>
+          <span class="n">5 items</span></li>
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TOPIC}} — all digests</title>
+<style>
+  :root{ --bg:#f7f8fa; --card:#fff; --ink:#1a1d24; --muted:#5b6270; --line:#e5e8ee; --accent:#2f6df6; }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1319; --card:#161b23; --ink:#e8ebf1; --muted:#9aa3b2; --line:#242c38; --accent:#6ea0ff; } }
+  :root[data-theme="light"]{ --bg:#f7f8fa; --card:#fff; --ink:#1a1d24; --muted:#5b6270; --line:#e5e8ee; }
+  :root[data-theme="dark"]{ --bg:#0f1319; --card:#161b23; --ink:#e8ebf1; --muted:#9aa3b2; --line:#242c38; }
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:680px;margin:0 auto;padding:32px 20px 80px;}
+  a.back{color:var(--accent);text-decoration:none;font-size:14px;}
+  h1{font-size:24px;margin:12px 0 4px;} .sub{color:var(--muted);font-size:14px;margin:0 0 20px;}
+  ul{list-style:none;padding:0;margin:0;}
+  li{display:flex;justify-content:space-between;align-items:center;gap:12px;
+    background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:8px 0;}
+  li a{color:var(--accent);text-decoration:none;font-weight:600;} li a:hover{text-decoration:underline;}
+  .n{color:var(--muted);font-size:13px;white-space:nowrap;}
+</style>
+<div class="wrap">
+  <a class="back" href="../index.html">← All topics</a>
+  <h1>{{TOPIC}}</h1>
+  <p class="sub">{{COUNT}} digests, newest first.</p>
+  <ul>
+    {{ROWS}}
+  </ul>
+</div>

@@ -1,0 +1,185 @@
+<!--
+  DIGEST TEMPLATE — fill the placeholders, then write the result to
+  {slug}/{slug}-YYYY-MMM-DD.html . The file is fully self-contained (inline
+  CSS + JS) so it renders on Vercel, opened locally, or in GitHub's file viewer.
+
+  Placeholders:
+    {{TITLE}}        e.g. "AI Agents & Tooling — 23 Jul 2026"
+    {{TOPIC}}        e.g. "AI Agents & Tooling"
+    {{DATE_HUMAN}}   e.g. "Thursday, 23 July 2026"
+    {{GENERATED_AT}} ISO timestamp, e.g. "2026-07-23T06:00:00Z"
+    {{RUN_TALLY}}    e.g. "5 new items · 12 already-known skipped · run #6"
+    {{SOURCE_NOTE}}  e.g. "Scanned ~100 candidates (75 web search, 25 Firecrawl)."
+    {{KB_HREF}}      relative link to this topic's KB file, e.g. "../knowledge-base/{slug}.md"
+    {{INDEX_HREF}}   relative link to the topic index, e.g. "./index.html"
+    {{ITEMS}}        the top-5 items block — see ITEM MARKUP below
+
+  ITEM MARKUP — repeat this <article> per item. Render content as STATIC HTML so
+  it is fully readable even where JS is stripped. Each citation MUST be an
+  <a class="cite"> immediately followed by a <span class="link-status" data-url="SAME_URL">;
+  the runtime checker keys off data-url. Always use https:// citation URLs (an http
+  link is blocked as mixed content on an https page and would wrongly read as dead).
+
+    <article class="item">
+      <h2>1. Headline goes here</h2>
+      <p>Three to five sentence synthesis in your own words: what happened, why
+         it matters to the topic, the key numbers and context.</p>
+      <p class="sources">Sources:
+        <a class="cite" href="https://example.com/a" target="_blank" rel="noopener">Publication A</a><span class="link-status" data-url="https://example.com/a"></span>,
+        <a class="cite" href="https://example.com/b" target="_blank" rel="noopener">Publication B</a><span class="link-status" data-url="https://example.com/b"></span>
+      </p>
+    </article>
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#ffffff; --ink:#1a1d24; --muted:#5b6270; --line:#e5e8ee;
+    --accent:#2f6df6; --ok:#1a9d5a; --bad:#d23b3b; --warn:#c98a00; --unknown:#9aa1ad;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1319; --card:#161b23; --ink:#e8ebf1; --muted:#9aa3b2; --line:#242c38;
+      --accent:#6ea0ff; --ok:#3ecb7f; --bad:#ff6b6b; --warn:#e0a94a; --unknown:#6b7482; }
+  }
+  :root[data-theme="light"]{ --bg:#f7f8fa; --card:#fff; --ink:#1a1d24; --muted:#5b6270; --line:#e5e8ee; --unknown:#9aa1ad; }
+  :root[data-theme="dark"]{ --bg:#0f1319; --card:#161b23; --ink:#e8ebf1; --muted:#9aa3b2; --line:#242c38; --unknown:#6b7482; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:32px 20px 80px;}
+  header.top{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:8px;}
+  .eyebrow{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 6px;}
+  h1{font-size:26px;line-height:1.25;margin:0 0 10px;}
+  .meta{color:var(--muted);font-size:14px;margin:2px 0;}
+  .tally{display:inline-block;margin-top:10px;padding:4px 10px;border:1px solid var(--line);
+    border-radius:999px;font-size:13px;color:var(--muted);background:var(--card);}
+  nav.links{margin:14px 0 0;font-size:14px;}
+  nav.links a{color:var(--accent);text-decoration:none;margin-right:16px;}
+  nav.links a:hover{text-decoration:underline;}
+  .legend{margin:22px 0 4px;padding:12px 14px;background:var(--card);border:1px solid var(--line);
+    border-radius:10px;font-size:13px;color:var(--muted);}
+  .legend b{color:var(--ink);}
+  .legend .dot{position:static;margin:0 4px 0 2px;vertical-align:baseline;}
+  article.item{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:20px 22px;margin:18px 0;}
+  article.item h2{font-size:19px;margin:0 0 8px;line-height:1.3;}
+  article.item p{margin:0 0 10px;}
+  .sources{font-size:14px;color:var(--muted);}
+  .sources a.cite{color:var(--accent);text-decoration:none;}
+  .sources a.cite:hover{text-decoration:underline;}
+  .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-left:5px;
+    background:var(--unknown);vertical-align:middle;cursor:help;transition:background .2s;}
+  .dot.checking{background:var(--unknown);animation:pulse 1s ease-in-out infinite;}
+  .dot.ok{background:var(--ok);} .dot.bad{background:var(--bad);} .dot.warn{background:var(--warn);}
+  @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+  .recheck{margin-left:8px;font-size:12px;color:var(--muted);background:none;border:1px solid var(--line);
+    border-radius:6px;padding:2px 8px;cursor:pointer;}
+  .recheck:hover{border-color:var(--accent);color:var(--accent);}
+  footer.foot{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);
+    color:var(--muted);font-size:13px;}
+  footer.foot a{color:var(--accent);}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <p class="eyebrow">Daily Research Digest</p>
+    <h1>{{TOPIC}}</h1>
+    <p class="meta">{{DATE_HUMAN}}</p>
+    <span class="tally">{{RUN_TALLY}}</span>
+    <nav class="links">
+      <a href="{{INDEX_HREF}}">← All digests</a>
+      <a href="{{KB_HREF}}">Knowledge base</a>
+    </nav>
+  </header>
+
+  <div class="legend">
+    Citation status <span class="dot ok"></span> reachable ·
+    <span class="dot bad"></span> broken (dead / 4xx / 5xx) ·
+    <span class="dot warn"></span> slow / timed out ·
+    <span class="dot"></span> unchecked.
+    When served on Vercel the dots reflect the <b>real HTTP status</b> via <code>/api/check</code>;
+    opened locally or in GitHub's file viewer they fall back to a best-effort browser probe that only
+    detects dead domains. Always click through to confirm.
+    <button class="recheck" id="recheck">Re-check all</button>
+  </div>
+
+  {{ITEMS}}
+
+  <footer class="foot">
+    <p>{{SOURCE_NOTE}}</p>
+    <p>Generated <time datetime="{{GENERATED_AT}}">{{GENERATED_AT}}</time> ·
+       Knowledge base: <a href="{{KB_HREF}}">{{TOPIC}}</a></p>
+  </footer>
+</div>
+
+<script>
+(function(){
+  // Progressive enhancement only: all content above is fully readable without this.
+  // Strategy: prefer the server-side checker at /api/check (real HTTP status on
+  // Vercel). If that endpoint is absent (opened locally, GitHub file viewer, or
+  // not yet deployed), fall back to a best-effort no-cors browser probe.
+  var TIMEOUT_MS = 8000;
+  var apiAvailable = null;        // null = unknown, true/false once probed
+  var API = "/api/check?url=";
+
+  function makeDot(statusEl){
+    var dot = document.createElement("span");
+    dot.className = "dot checking";
+    dot.title = "Checking link…";
+    dot.dataset.url = statusEl.dataset.url;
+    statusEl.replaceWith(dot);
+    return dot;
+  }
+  function setDot(dot, cls, title){ dot.className = "dot " + cls; dot.title = title; }
+
+  // Best-effort browser probe (fallback): a resolved no-cors fetch means the host
+  // responded; a rejection means the domain is dead / unreachable / blocking us.
+  // We cannot read the status code cross-origin — that's the browser security wall.
+  function probeBrowser(dot){
+    var url = dot.dataset.url;
+    var ctrl = new AbortController();
+    var timer = setTimeout(function(){ ctrl.abort(); }, TIMEOUT_MS);
+    fetch(url, { mode:"no-cors", method:"GET", signal:ctrl.signal, redirect:"follow" })
+      .then(function(){ clearTimeout(timer);
+        setDot(dot, "ok", "Domain responded (exact page not verifiable in-browser). Click through to confirm."); })
+      .catch(function(err){ clearTimeout(timer);
+        if(err && err.name === "AbortError")
+          setDot(dot, "warn", "No response within " + (TIMEOUT_MS/1000) + "s — may be slow or blocking checks.");
+        else
+          setDot(dot, "bad", "Could not reach this domain (dead, offline, or blocking the check).");
+      });
+  }
+
+  // Server-side check via the Vercel function: returns real {ok, status}.
+  function probeServer(dot){
+    var url = dot.dataset.url;
+    var ctrl = new AbortController();
+    var timer = setTimeout(function(){ ctrl.abort(); }, TIMEOUT_MS + 4000);
+    return fetch(API + encodeURIComponent(url), { signal: ctrl.signal })
+      .then(function(r){
+        if(!r.ok) throw new Error("api-" + r.status);   // endpoint missing → fall back
+        return r.json();
+      })
+      .then(function(d){ clearTimeout(timer);
+        if(d.ok) setDot(dot, "ok", "Reachable — HTTP " + d.status + ".");
+        else if(d.status >= 400) setDot(dot, "bad", "Broken — HTTP " + d.status + ".");
+        else setDot(dot, "bad", "Unreachable — " + (d.error || "no response") + ".");
+      });
+  }
+
+  function checkOne(dot){
+    setDot(dot, "checking", "Checking link…");
+    if(apiAvailable === false){ probeBrowser(dot); return; }
+    // apiAvailable true or unknown: try the server, fall back on any failure.
+    probeServer(dot).then(function(){ apiAvailable = true; })
+      .catch(function(){ apiAvailable = false; probeBrowser(dot); });
+  }
+
+  function checkAll(){ document.querySelectorAll(".dot[data-url]").forEach(checkOne); }
+
+  document.querySelectorAll(".link-status[data-url]").forEach(function(s){ checkOne(makeDot(s)); });
+  var btn = document.getElementById("recheck");
+  if(btn) btn.addEventListener("click", checkAll);
+})();
+</script>

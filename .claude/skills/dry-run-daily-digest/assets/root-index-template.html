@@ -1,0 +1,42 @@
+<!--
+  ROOT LANDING PAGE TEMPLATE — regenerate REPO_DIR/index.html each run.
+  This is the site root on Vercel. Lists every topic, links into each topic index.
+
+  Placeholders:
+    {{GENERATED_AT}}  ISO timestamp of this rebuild
+    {{CARDS}}         one card per topic (most-recently-updated first) — see CARD MARKUP:
+      <a class="topic" href="./{slug}/index.html">
+        <h2>{topic title}</h2>
+        <p class="meta">{N} digests · latest {DD Mon YYYY}</p>
+      </a>
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research Digests</title>
+<style>
+  :root{ --bg:#f7f8fa; --card:#fff; --ink:#1a1d24; --muted:#5b6270; --line:#e5e8ee; --accent:#2f6df6; }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1319; --card:#161b23; --ink:#e8ebf1; --muted:#9aa3b2; --line:#242c38; --accent:#6ea0ff; } }
+  :root[data-theme="light"]{ --bg:#f7f8fa; --card:#fff; --ink:#1a1d24; --muted:#5b6270; --line:#e5e8ee; }
+  :root[data-theme="dark"]{ --bg:#0f1319; --card:#161b23; --ink:#e8ebf1; --muted:#9aa3b2; --line:#242c38; }
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  .eyebrow{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 6px;}
+  h1{font-size:28px;margin:0 0 6px;} .sub{color:var(--muted);font-size:14px;margin:0 0 24px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;}
+  a.topic{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:18px 20px;text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s;}
+  a.topic:hover{border-color:var(--accent);transform:translateY(-2px);}
+  a.topic h2{font-size:18px;margin:0 0 6px;} a.topic .meta{color:var(--muted);font-size:13px;margin:0;}
+  footer{margin-top:32px;color:var(--muted);font-size:13px;}
+</style>
+<div class="wrap">
+  <p class="eyebrow">Daily Research Digest</p>
+  <h1>Research Digests</h1>
+  <p class="sub">Auto-generated topic briefings, refreshed on each scheduled run.</p>
+  <div class="grid">
+    {{CARDS}}
+  </div>
+  <footer>Last rebuilt <time datetime="{{GENERATED_AT}}">{{GENERATED_AT}}</time>.</footer>
+</div>
