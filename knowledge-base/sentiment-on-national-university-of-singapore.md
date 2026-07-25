@@ -2,10 +2,45 @@
 topic: "Sentiment on National University of Singapore"
 topic_slug: sentiment-on-national-university-of-singapore
 created: 2026-07-23
-last_run: 2026-07-24
-run_count: 2
-digest_count: 2
+last_run: 2026-07-25
+run_count: 3
+digest_count: 3
 entries:
+  - fingerprint: chew-chor-meng-daughter-nus-graduation
+    title: "Actor Chew Chor Meng's daughter graduates from NUS"
+    first_seen: 2026-07-25
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-25.html
+    urls:
+      - https://mothership.sg/2026/07/chew-chor-meng-daughter-graduate-from-nus/
+      - https://www.straitstimes.com/life/entertainment/proud-of-the-woman-you-have-become-actor-chew-chor-mengs-daughter-graduates-from-nus
+      - https://www.8days.sg/entertainment/local/chew-chor-meng-missed-daughters-nus-graduation-proudly-celebrated-her-big-day-home-861066
+      - https://www.stomp.sg/trending-now/chew-chor-meng-celebrates-daughters-nus-graduation-home-after-not-appearing-ceremony-photos
+  - fingerprint: nus-usnews-math-ranking-32nd-2026
+    title: "NUS ties 32nd globally, leads SEA in U.S. News mathematics rankings; top 10 in eight subjects"
+    first_seen: 2026-07-25
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-25.html
+    urls:
+      - https://e.vnexpress.net/news/tech/tech-news/university-from-world-s-second-richest-country-leads-southeast-asia-in-mathematics-5100773.html
+  - fingerprint: nus-herdsa-2026-human-centric-ai-education
+    title: "NUS hosts first HERDSA higher-education conference; panel warns against AI over-reliance"
+    first_seen: 2026-07-25
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-25.html
+    urls:
+      - https://news.nus.edu.sg/education-for-a-changing-world-developing-human-centric-graduates-in-the-age-of-ai/
+      - https://ctlt.nus.edu.sg/herdsa-2026/
+  - fingerprint: nussu-flag-day-2026
+    title: "NUSSU Flag Day 2026 fundraiser"
+    first_seen: 2026-07-25
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-25.html
+    urls:
+      - https://osa.nus.edu.sg/event/nussu-flag-day-2026/
+      - https://x.com/NUSingapore/status/2080461076630798436
+  - fingerprint: nus-rainfall-runoff-urban-flood-prediction
+    title: "NUS engineers wire up Kent Ridge as a live flood laboratory"
+    first_seen: 2026-07-25
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-25.html
+    urls:
+      - https://news.nus.edu.sg/nus-researchers-study-singapores-rainfall-and-runoff-to-predict-urban-floods/
   - fingerprint: nus-hbn-switches-5g-6g-jul2026
     title: "NUS engineers unveil compact, power-holding RF switches for 5G/6G chips"
     first_seen: 2026-07-24
@@ -65,6 +100,13 @@ entries:
 # Knowledge Base — Sentiment on National University of Singapore
 
 Running log of everything already covered, newest first. Each bullet links the digest it appeared in.
+
+## 2026-Jul-25
+- **Actor Chew Chor Meng's daughter graduates from NUS** — celebrity-family human interest drives warm pickup across Singapore entertainment press. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-25.html)
+- **NUS ties 32nd globally, leads Southeast Asia in U.S. News mathematics rankings** — top 10 in eight subjects overall, extending this month's rankings storyline. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-25.html)
+- **NUS hosts first HERDSA higher-education conference** — ~1,000 educators debate AI's role in the classroom, panellists caution against over-reliance. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-25.html)
+- **NUSSU Flag Day 2026** — hundreds of freshmen fundraise across Singapore for Community Chest beneficiaries. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-25.html)
+- **NUS engineers wire up Kent Ridge as a live flood laboratory** — 22-month sensor study of tropical rainfall-runoff behaviour aims to forecast Singapore's flood hotspots. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-25.html)
 
 ## 2026-Jul-23 (baseline run)
 - **NUS slips to 6th (from 2nd) in US News computer science rankings, NTU holds 4th** — mixed pride/concern over Singapore's relative standing as China's universities surge. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-23.html)
