@@ -2,10 +2,31 @@
 topic: "Sentiment on National University of Singapore"
 topic_slug: sentiment-on-national-university-of-singapore
 created: 2026-07-23
-last_run: 2026-07-25
-run_count: 3
-digest_count: 3
+last_run: 2026-07-26
+run_count: 4
+digest_count: 4
 entries:
+  - fingerprint: nus-liow-us-iran-gulf-commentary-jul2026
+    title: "NUS dean Joseph Liow: the Gulf has no substitute for the US as the Iran war reshapes the region"
+    first_seen: 2026-07-26
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-26.html
+    urls:
+      - https://www.channelnewsasia.com/commentary/us-iran-war-gulf-impact-hormuz-control-6273151
+      - https://news.nus.edu.sg/us-iran-war-has-unleashed-forces-that-will-reshape-the-gulf/
+  - fingerprint: nus-ips-social-recession-risk-commentary-jul2026
+    title: "NUS IPS researchers warn of a Singapore 'social recession' of weakening ties"
+    first_seen: 2026-07-26
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-26.html
+    urls:
+      - https://www.channelnewsasia.com/commentary/singapore-social-recession-risk-weaker-social-ties-volunteering-6260151
+      - https://news.nus.edu.sg/the-other-recession-risk-that-singapore-should-be-wary-of/
+  - fingerprint: nus-liu-ziwen-car-sharing-accident-protection-jul2026
+    title: "NUS senior lecturer Liu Ziwen: car-sharing crash victims bear the wait-time cost"
+    first_seen: 2026-07-26
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-26.html
+    urls:
+      - https://news.nus.edu.sg/car-sharing-system-must-improve-protection-for-accident-victims/
+      - https://nus.edu.sg/newshub/news/2026/2026-07/2026-07-23/INSURANCE-zb-23jul-p14.pdf
   - fingerprint: chew-chor-meng-daughter-nus-graduation
     title: "Actor Chew Chor Meng's daughter graduates from NUS"
     first_seen: 2026-07-25
@@ -100,6 +121,11 @@ entries:
 # Knowledge Base — Sentiment on National University of Singapore
 
 Running log of everything already covered, newest first. Each bullet links the digest it appeared in.
+
+## 2026-Jul-26
+- **NUS dean Joseph Liow: the Gulf has no substitute for the US as the Iran war reshapes the region** — CNA commentary on how resumed US-Iran hostilities and Strait of Hormuz transit disruption will reorder Gulf security and economics. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-26.html)
+- **NUS IPS researchers warn of a Singapore 'social recession'** — CNA commentary arguing weakening social ties and volunteering are a resilience risk alongside economic headwinds. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-26.html)
+- **NUS senior lecturer Liu Ziwen: car-sharing crash victims bear the wait-time cost** — Lianhe Zaobao op-ed calling for platforms to take a more active role coordinating third-party accident claims. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-26.html)
 
 ## 2026-Jul-25
 - **Actor Chew Chor Meng's daughter graduates from NUS** — celebrity-family human interest drives warm pickup across Singapore entertainment press. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-25.html)
