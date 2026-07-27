@@ -2,10 +2,38 @@
 topic: "Sentiment on National University of Singapore"
 topic_slug: sentiment-on-national-university-of-singapore
 created: 2026-07-23
-last_run: 2026-07-26
-run_count: 4
-digest_count: 4
+last_run: 2026-07-27
+run_count: 5
+digest_count: 5
 entries:
+  - fingerprint: nus-law-shanmugam-lawyer-attrition-jul2026
+    title: "Shanmugam tells NUS Law freshmen the profession must confront lawyer attrition and workplace culture"
+    first_seen: 2026-07-27
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-27.html
+    urls:
+      - https://www.channelnewsasia.com/singapore/shanmugam-nus-law-practice-inauguration-ceremony-attrition-6278871
+      - https://www.straitstimes.com/singapore/courts-crime/attrition-rate-among-spore-lawyers-stable-but-issues-remain-says-shanmugam
+      - https://www.8world.com/singapore/shan-at-nus-law-freshman-inauguration-3229016
+      - https://www.mha.gov.sg/media-room/newsroom/nus-law-freshmen-inauguration-ceremony
+  - fingerprint: nus-coral-heat-hiit-bacteria-jul2026
+    title: "NUS marine scientists 'HIIT-train' Singapore's corals with heat conditioning and beneficial bacteria"
+    first_seen: 2026-07-27
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-27.html
+    urls:
+      - https://www.straitstimes.com/singapore/environment/good-bacteria-and-hiit-could-train-singapore-corals-to-withstand-hotter-seas
+      - https://www.redhot.sg/good-bacteria-and-hiit-could-train-singapore-corals-to-withstand-hotter-seas-699709.html
+  - fingerprint: pornsak-nus-medicine-nutrition-masters-jul2026
+    title: "Thai TV host Pornsak enrols at NUS Medicine for a Master's in Nutrition and Lifestyle Medicine"
+    first_seen: 2026-07-27
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-27.html
+    urls:
+      - https://www.asiaone.com/entertainment/pornsak-accepted-nus-medical-school-pursue-masters-degree
+  - fingerprint: nus-gretchen-coffman-mangrove-champions-jul2026
+    title: "NUS geographer Gretchen Coffman champions a 'roots to reefs' approach to mangrove conservation"
+    first_seen: 2026-07-27
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-27.html
+    urls:
+      - https://news.nus.edu.sg/gretchen-coffman-cultivating-next-generation-mangrove-champions/
   - fingerprint: nus-liow-us-iran-gulf-commentary-jul2026
     title: "NUS dean Joseph Liow: the Gulf has no substitute for the US as the Iran war reshapes the region"
     first_seen: 2026-07-26
@@ -121,6 +149,12 @@ entries:
 # Knowledge Base — Sentiment on National University of Singapore
 
 Running log of everything already covered, newest first. Each bullet links the digest it appeared in.
+
+## 2026-Jul-27
+- **Shanmugam tells NUS Law freshmen the profession must confront lawyer attrition** — speech at the NUS Law freshmen inauguration ceremony, covered by CNA, ST and 8world, cites a Law Society attrition study alongside growth in the practising bar. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-27.html)
+- **NUS marine scientists "HIIT-train" Singapore's corals** — Huang Danwei's team transplants 160 coral fragments off Kusu and St John's Islands to test heat-conditioning and beneficial bacteria for climate resilience. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-27.html)
+- **Thai TV host Pornsak enrols at NUS Medicine** — accepted into a Master's in Nutrition and Lifestyle Medicine at NUS Yong Loo Lin School of Medicine, starting August 2026. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-27.html)
+- **NUS geographer Gretchen Coffman's "roots to reefs" mangrove feature** — World Mangrove Day profile on her interconnected-ecosystem teaching and field research across Southeast Asia. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-27.html)
 
 ## 2026-Jul-26
 - **NUS dean Joseph Liow: the Gulf has no substitute for the US as the Iran war reshapes the region** — CNA commentary on how resumed US-Iran hostilities and Strait of Hormuz transit disruption will reorder Gulf security and economics. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-26.html)
