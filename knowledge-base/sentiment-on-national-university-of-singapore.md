@@ -2,10 +2,47 @@
 topic: "Sentiment on National University of Singapore"
 topic_slug: sentiment-on-national-university-of-singapore
 created: 2026-07-23
-last_run: 2026-07-27
-run_count: 5
-digest_count: 5
+last_run: 2026-07-28
+run_count: 6
+digest_count: 6
 entries:
+  - fingerprint: nus-cde-mesofs-soft-sensor-jul2026
+    title: "NUS engineers unveil ME-SOFS, a fully mechanical soft sensor for touch-to-action robotics"
+    first_seen: 2026-07-28
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-28.html
+    urls:
+      - https://www.eurekalert.org/news-releases/1135442
+      - https://techxplore.com/news/2026-07-soft-sensor-robotic-action-electronics.html
+      - https://interestingengineering.com/ai-robotics/new-soft-sensor-robots-electronics
+  - fingerprint: nus-medicine-ihme-healthspan-gap-jul2026
+    title: "Global IHME study co-led with NUS Medicine: Singapore leads in longevity but 'sick years' widen to 11.2"
+    first_seen: 2026-07-28
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-28.html
+    urls:
+      - https://scitechdaily.com/singapore-has-the-worlds-longest-healthiest-lives-but-it-comes-with-a-hidden-cost/
+      - https://www.sciencefocus.com/news/singapore-life-expectancy-healthspan-morbidity-gap
+  - fingerprint: nus-exeter-nuhs-family-medicine-mou-jul2026
+    title: "University of Exeter signs family-medicine research MOU with NUS and NUHS"
+    first_seen: 2026-07-28
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-28.html
+    urls:
+      - https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/family-medicine-the-focus-of-new-agreement-with-singapore/
+      - https://www.miragenews.com/exeter-singapore-forge-family-medicine-1716733/
+  - fingerprint: nus-joshua-lee-cancer-graduate-jul2026
+    title: "Cancer survivor Joshua Lee's NUS graduation-with-honours story headlines Commencement coverage"
+    first_seen: 2026-07-28
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-28.html
+    urls:
+      - https://www.straitstimes.com/singapore/parenting-education/diagnosed-with-cancer-at-24-joshua-lee-found-hope-in-community-graduated-from-nus-with-honours
+      - https://news.nus.edu.sg/the-courage-to-live-unapologetically
+      - https://alumni.nus.edu.sg/thealumnus/2026/07/21/the-courage-to-live-unapologetically-how-cancer-changed-one-nus-graduates-outlook/
+  - fingerprint: nus-stanford-gedi-meta-venture-jul2026
+    title: "NUS engineering students join Stanford GEDI programme, partnering with Meta and Venture Corporation"
+    first_seen: 2026-07-28
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-28.html
+    urls:
+      - https://www.eurekalert.org/news-releases/1135635
+      - https://cde.nus.edu.sg/edic/idp/stanford-gedi-nus/
   - fingerprint: nus-law-shanmugam-lawyer-attrition-jul2026
     title: "Shanmugam tells NUS Law freshmen the profession must confront lawyer attrition and workplace culture"
     first_seen: 2026-07-27
@@ -149,6 +186,13 @@ entries:
 # Knowledge Base — Sentiment on National University of Singapore
 
 Running log of everything already covered, newest first. Each bullet links the digest it appeared in.
+
+## 2026-Jul-28
+- **NUS engineers unveil ME-SOFS, a fully mechanical soft sensor** — 3D-printed force sensor turns touch directly into fluid-driven robotic action with no electronics, published in Science Advances, covered by EurekAlert, Tech Xplore and Interesting Engineering. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-28.html)
+- **Global IHME study co-led with NUS Medicine on Singapore's longevity/healthspan gap** — Singapore tops both life expectancy and healthy life expectancy globally, but "sick years" have widened to 11.2; NUS Medicine's Dr Marie Ng quoted internationally via BBC Science Focus and SciTechDaily. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-28.html)
+- **University of Exeter signs family-medicine research MOU with NUS and NUHS** — three-way pact on healthy ageing, multimorbidity and digital health innovation. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-28.html)
+- **Cancer survivor Joshua Lee's NUS graduation-with-honours story** — Straits Times and NUS alumni coverage of a psychology graduate's outlook after a Stage 3 testicular cancer diagnosis mid-degree. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-28.html)
+- **NUS engineering students join Stanford's GEDI programme with Meta and Venture Corporation** — first-year NUS participation in the cross-border design-innovation programme, capstone showcase held at Stanford. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-28.html)
 
 ## 2026-Jul-27
 - **Shanmugam tells NUS Law freshmen the profession must confront lawyer attrition** — speech at the NUS Law freshmen inauguration ceremony, covered by CNA, ST and 8world, cites a Law Society attrition study alongside growth in the practising bar. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-27.html)
