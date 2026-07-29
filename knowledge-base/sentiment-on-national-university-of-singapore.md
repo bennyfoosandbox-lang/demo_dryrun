@@ -2,10 +2,44 @@
 topic: "Sentiment on National University of Singapore"
 topic_slug: sentiment-on-national-university-of-singapore
 created: 2026-07-23
-last_run: 2026-07-28
-run_count: 6
-digest_count: 6
+last_run: 2026-07-29
+run_count: 7
+digest_count: 7
 entries:
+  - fingerprint: nus-ai-sense-maker-library-jul2026
+    title: "NUS Libraries launches AI Sense Maker, Southeast Asia's first conversational AI research tool"
+    first_seen: 2026-07-29
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-29.html
+    urls:
+      - https://www.straitstimes.com/tech/nus-rare-collections-research-papers-to-be-made-searchable-through-new-ai-chatbot
+      - https://techcoffeehouse.com/2026/07/29/nus-launches-southeast-asias-first-conversational-ai-library-tool/
+  - fingerprint: nus-cde-xsig-sensor-patch-jul2026
+    title: "NUS engineers fuse four body signals into a single wearable patch with X-Sig"
+    first_seen: 2026-07-29
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-29.html
+    urls:
+      - https://www.eurekalert.org/news-releases/1137674
+      - https://medicalxpress.com/news/2026-07-patch-merges-multiple-physiological-simpler.html
+  - fingerprint: nus-chci-lightbulb-reactor-jul2026
+    title: "NUS's lightbulb-inspired reactor platform tackles hydrogen, plastic waste and methane"
+    first_seen: 2026-07-29
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-29.html
+    urls:
+      - https://news.nus.edu.sg/lightbulb-reactor-tackles-decarbonisation-challenges/
+      - https://carbon-pulse.com/535906/
+  - fingerprint: nuhs-ncaip-ai-pharmacy-jul2026
+    title: "NUHS rolls out cluster-wide AI platform (NCAIP) for pharmacy safety"
+    first_seen: 2026-07-29
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-29.html
+    urls:
+      - https://www.nuhs.edu.sg/about-nuhs/news-and-stories/news-and-stories-details/nuhs-unveils-novel-ai-platform-to-strengthen-medication-safety-and-streamline-pharmacy-workflows
+  - fingerprint: nus-nursing-zhou-wentao-presidents-award-jul2026
+    title: "NUS Nursing's Zhou Wentao wins the President's Award for Nurses 2026"
+    first_seen: 2026-07-29
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-29.html
+    urls:
+      - https://medicine.nus.edu.sg/nursing/2026/07/associate-professor-zhou-wentao-from-nus-nursing-receives-presidents-award-for-nurses-2026/
+      - https://news.nus.edu.sg/associate-professor-zhou-wentao-from-nus-nursing-receives-presidents-award-for-nurses-2026
   - fingerprint: nus-cde-mesofs-soft-sensor-jul2026
     title: "NUS engineers unveil ME-SOFS, a fully mechanical soft sensor for touch-to-action robotics"
     first_seen: 2026-07-28
@@ -186,6 +220,13 @@ entries:
 # Knowledge Base — Sentiment on National University of Singapore
 
 Running log of everything already covered, newest first. Each bullet links the digest it appeared in.
+
+## 2026-Jul-29
+- **NUS Libraries launches AI Sense Maker** — Southeast Asia's first conversational AI research tool, powered by OpenAI's GPT-4.1, covering 150,000 rare collections and research papers; launches August 2026. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-29.html)
+- **NUS engineers unveil X-Sig, a cross-modal skin sensor** — fuses electrical and mechanical body signals into one wearable patch for cuffless blood-pressure monitoring and gesture recognition, published in Nature Sensors. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-29.html)
+- **NUS's "lightbulb" reactor platform tackles hydrogen, plastic waste and methane** — Prof Yan Ning's team frames three prior studies as one versatile decarbonisation reactor design. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-29.html)
+- **NUHS rolls out cluster-wide AI platform (NCAIP) for pharmacy safety** — four AI tools across NUS-affiliated hospitals aim to save up to S$2m/year and 850 pharmacist man-hours weekly. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-29.html)
+- **NUS Nursing's Zhou Wentao wins the President's Award for Nurses 2026** — Singapore's top nursing honour, recognising her leadership of NUS's Master of Nursing and Doctor of Nursing Practice programmes. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-29.html)
 
 ## 2026-Jul-28
 - **NUS engineers unveil ME-SOFS, a fully mechanical soft sensor** — 3D-printed force sensor turns touch directly into fluid-driven robotic action with no electronics, published in Science Advances, covered by EurekAlert, Tech Xplore and Interesting Engineering. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-28.html)
