@@ -2,10 +2,44 @@
 topic: "Sentiment on National University of Singapore"
 topic_slug: sentiment-on-national-university-of-singapore
 created: 2026-07-23
-last_run: 2026-07-29
-run_count: 7
-digest_count: 7
+last_run: 2026-07-30
+run_count: 8
+digest_count: 8
 entries:
+  - fingerprint: nus-ntu-usnews-ai-top10-jul2026
+    title: "Singapore is the only Southeast Asian nation with two universities in the world's AI top 10"
+    first_seen: 2026-07-30
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-30.html
+    urls:
+      - https://e.vnexpress.net/news/tech/tech-news/world-s-second-richest-country-leads-southeast-asia-with-two-universities-in-global-ai-top-10-5102649.html
+      - https://www.usnews.com/education/best-global-universities/national-university-of-singapore-505009
+  - fingerprint: nus-bschool-goh-puay-guan-supply-chains-jul2026
+    title: "NUS Business School economist: Singapore must 'orchestrate' fractured global supply chains"
+    first_seen: 2026-07-30
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-30.html
+    urls:
+      - https://news.nus.edu.sg/how-singapore-can-orchestrate-global-supply-chains-in-a-fractured-world/
+  - fingerprint: nus-bschool-gelex-future-makers-vietnam-jul2026
+    title: "NUS Business School designs a second leadership programme for Vietnam's GELEX Group"
+    first_seen: 2026-07-30
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-30.html
+    urls:
+      - https://gelex.vn/en/news-en/gelex-future-makers-2026-leadership-development-program-designed-by-nus-business-school-experts.html
+      - https://nhandan.vn/gelex-thiet-ke-chuong-trinh-phat-trien-lanh-dao-cung-nus-business-school-post978350.html
+  - fingerprint: nus-law-youth-debate-2026-champions
+    title: "NUS Law students crowned champions of Youth Debate 2026"
+    first_seen: 2026-07-30
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-30.html
+    urls:
+      - https://news.nus.edu.sg/nus-law-students-crowned-champions-of-youth-debate-2026/
+      - https://berita.mediacorp.sg/singapura/belia-perlu-kuasai-pemikiran-kritis-hadapi-era-ai-dr-syed-harun-1054351
+  - fingerprint: nus-foodtech-challenge-2026-itb-runner-up
+    title: "Indonesian students take 2nd place at the 2026 NUS FoodTech Challenge"
+    first_seen: 2026-07-30
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-30.html
+    urls:
+      - https://itb.ac.id/news/itb-students-develop-affordable-protein-drink-earn-international-recognition-in-singapore/63656
+      - https://www.linkedin.com/posts/nusfst_last-week-the-nus-foodtech-challenge-2026-activity-7482833433313046528-eneh
   - fingerprint: nus-ai-sense-maker-library-jul2026
     title: "NUS Libraries launches AI Sense Maker, Southeast Asia's first conversational AI research tool"
     first_seen: 2026-07-29
@@ -220,6 +254,13 @@ entries:
 # Knowledge Base — Sentiment on National University of Singapore
 
 Running log of everything already covered, newest first. Each bullet links the digest it appeared in.
+
+## 2026-Jul-30
+- **Singapore is the only Southeast Asian nation with two universities in the world's AI top 10** — NTU holds No. 2 and NUS climbs to 5th in the 2026-2027 U.S. News AI subject ranking; China takes 8 of the top 10 spots. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-30.html)
+- **NUS Business School economist on orchestrating fractured global supply chains** — Assoc Prof Goh Puay Guan's Business Times commentary continues NUS's steady drumbeat of policy-relevant economic commentary. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-30.html)
+- **NUS Business School designs a second GELEX leadership programme for Vietnam** — Future Makers 2026 executive-education partnership with Vietnamese conglomerate GELEX Group, widely covered in Vietnamese media. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-30.html)
+- **NUS Law students crowned champions of Youth Debate 2026** — win covered by Mediacorp's Suria News Online, extending a strong run for NUS Law after the Shanmugam freshmen speech. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-30.html)
+- **Indonesian ITB students take 2nd place at the 2026 NUS FoodTech Challenge** — Pronic+ protein drink beat most of 86 international teams, showcasing NUS's convening power as a regional food-tech hub. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-30.html)
 
 ## 2026-Jul-29
 - **NUS Libraries launches AI Sense Maker** — Southeast Asia's first conversational AI research tool, powered by OpenAI's GPT-4.1, covering 150,000 rare collections and research papers; launches August 2026. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-29.html)
