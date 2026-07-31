@@ -2,10 +2,44 @@
 topic: "Sentiment on National University of Singapore"
 topic_slug: sentiment-on-national-university-of-singapore
 created: 2026-07-23
-last_run: 2026-07-30
-run_count: 8
-digest_count: 8
+last_run: 2026-07-31
+run_count: 9
+digest_count: 9
 entries:
+  - fingerprint: far-ai-singapore-office-nus-ai-institute-jul2026
+    title: "AI-safety nonprofit FAR.AI opens its first office outside the US, anchored to the NUS AI Institute"
+    first_seen: 2026-07-31
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-31.html
+    urls:
+      - https://www.prnewswire.com/news-releases/farai-establishes-first-international-office-in-singapore-302838265.html
+      - https://vir.com.vn/farai-opens-first-international-office-in-singapore-157748.html
+  - fingerprint: nus-medicine-krsc-regulatory-science-mou-jul2026
+    title: "NUS Medicine signs MoU with Korea Regulatory Science Center to build a regional biohealth-regulation hub"
+    first_seen: 2026-07-31
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-31.html
+    urls:
+      - https://medicine.nus.edu.sg/news/korea-regulatory-science-centerand-nus-medicine-sign-mou-to-advance-regulatory-science-cooperation-across-asia/
+      - https://www.biospectrumasia.com/news/30/28116/korea-and-singapore-ink-mou-to-advance-regulatory-science-cooperation-across-asia.html
+  - fingerprint: nus-um-ai-symposium-healthcare-robotics-jul2026
+    title: "NUS and Universiti Malaya co-host AI symposium spanning healthcare, robotics and more"
+    first_seen: 2026-07-31
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-31.html
+    urls:
+      - https://news.nus.edu.sg/nus-and-um-co-host-ai-symposium-sharing-research-outcomes-in-healthcare-robotics-and-more
+  - fingerprint: nus-dentistry-foundation-healthcare-dental-robot-jul2026
+    title: "Foundation Healthcare launches Singapore's first autonomous dental implant surgical robot with NUS Dentistry"
+    first_seen: 2026-07-31
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-31.html
+    urls:
+      - https://www.biospectrumasia.com/news/27/27728/foundation-healthcare-launches-singapores-first-autonomous-dental-implant-surgical-robot.html
+      - https://dentalasia.net/foundation-healthcare-launches-singapores-first-autonomous-dental-implant-surgical-robot/
+  - fingerprint: nus-cavenus-fxmedia-immersive-healthcare-spotlight-jul2026
+    title: "CAVE@NUS immersive nursing-training hub gets fresh trade-press spotlight"
+    first_seen: 2026-07-31
+    digest: sentiment-on-national-university-of-singapore-2026-Jul-31.html
+    urls:
+      - https://natlawreview.com/press-releases/cavenus-signals-new-phase-immersive-healthcare-education-technology
+      - https://news.nus.edu.sg/cavenus-and-verse-scaling-the-future-of-healthcare-education/
   - fingerprint: nus-ntu-usnews-ai-top10-jul2026
     title: "Singapore is the only Southeast Asian nation with two universities in the world's AI top 10"
     first_seen: 2026-07-30
@@ -254,6 +288,13 @@ entries:
 # Knowledge Base — Sentiment on National University of Singapore
 
 Running log of everything already covered, newest first. Each bullet links the digest it appeared in.
+
+## 2026-Jul-31
+- **AI-safety nonprofit FAR.AI opens its first office outside the US, anchored to the NUS AI Institute** — deepens an existing research relationship with Institute director Prof Mohan Kankanhalli; notable third-party validation of NUS as a global AI-safety research node. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-31.html)
+- **NUS Medicine signs MoU with Korea Regulatory Science Center** — Seoul signing ceremony on 21 Jul 2026 to co-host conferences, build joint certification courses/exchanges, and expand a pan-Asia biohealth regulatory-science network. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-31.html)
+- **NUS and Universiti Malaya co-host AI symposium** — research outcomes shared across healthcare, robotics and more, continuing the two universities' longstanding bilateral relationship. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-31.html)
+- **Foundation Healthcare launches Singapore's first autonomous dental implant surgical robot with NUS Dentistry** — strategic collaboration with the NUS Faculty of Dentistry on robotic implant surgery research and education. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-31.html)
+- **CAVE@NUS immersive nursing-training hub gets fresh trade-press spotlight** — FXMedia-partnered VR/simulation facility and the VERSE intra-professional nursing programme profiled as a model for healthcare education tech. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-31.html)
 
 ## 2026-Jul-30
 - **Singapore is the only Southeast Asian nation with two universities in the world's AI top 10** — NTU holds No. 2 and NUS climbs to 5th in the 2026-2027 U.S. News AI subject ranking; China takes 8 of the top 10 spots. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-30.html)
