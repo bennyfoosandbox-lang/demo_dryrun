@@ -2,10 +2,27 @@
 topic: "Sentiment on National University of Singapore"
 topic_slug: sentiment-on-national-university-of-singapore
 created: 2026-07-23
-last_run: 2026-07-31
-run_count: 9
-digest_count: 9
+last_run: 2026-08-01
+run_count: 10
+digest_count: 10
 entries:
+  - fingerprint: nus-hylocc-hydrogen-low-carbon-consortium-jul2026
+    title: "NUS launches Hydrogen and Low-Carbon Consortium to push decarbonisation from lab to industry"
+    first_seen: 2026-08-01
+    digest: sentiment-on-national-university-of-singapore-2026-Aug-01.html
+    urls:
+      - https://news.nus.edu.sg/nus-establishes-hylocc-to-accelerate-decarbonisation-efforts
+      - https://fuelcellsworks.com/2026/07/15/clean-energy/nus-establishes-hydrogen-and-low-carbon-consortium-to-accelerate-decarbonisation-efforts
+      - https://h2-tech.com/news/2026/07-26/nus-establishes-hydrogen-and-low-carbon-consortium-to-accelerate-decarbonization-efforts/
+      - https://www.miragenews.com/nus-launches-hydrogen-low-carbon-consortium-1710214/
+      - https://www.hydrogeninforms.com/news/hydrogen-and-low-carbon-consortium-in-singapore-by-nus/
+  - fingerprint: nus-honorary-doctor-kay-kuok-lim-pin-jul2026
+    title: "NUS confers honorary Doctor of Letters on Kay Kuok Oon Kwong and Prof Lim Pin"
+    first_seen: 2026-08-01
+    digest: sentiment-on-national-university-of-singapore-2026-Aug-01.html
+    urls:
+      - https://news.nus.edu.sg/nus-honorary-degrees-ms-kay-kuok-and-prof-lim-pin/
+      - https://news.nus.edu.sg/kay-kuok-oon-kwong-and-lim-pin-were-conferred-the-nus-honorary-doctor-of-letters-for-their-outstanding-contributions-in-professional-and-social-spheres
   - fingerprint: far-ai-singapore-office-nus-ai-institute-jul2026
     title: "AI-safety nonprofit FAR.AI opens its first office outside the US, anchored to the NUS AI Institute"
     first_seen: 2026-07-31
@@ -288,6 +305,10 @@ entries:
 # Knowledge Base — Sentiment on National University of Singapore
 
 Running log of everything already covered, newest first. Each bullet links the digest it appeared in.
+
+## 2026-Aug-01
+- **NUS launches Hydrogen and Low-Carbon Consortium (HyLoCC)** — CHCI's 14 Jul 2026 Industry Day launch moves hydrogen/low-carbon tech from lab research toward industry-scale deployment; picked up by clean-energy trade press. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Aug-01.html)
+- **NUS confers honorary Doctor of Letters on Kay Kuok Oon Kwong and Prof Lim Pin** — 9 Jul 2026 Commencement-season honour for a Shangri-La director/philanthropist and a former NUS Vice-Chancellor; NUS-sourced only, weak independent corroboration. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Aug-01.html)
 
 ## 2026-Jul-31
 - **AI-safety nonprofit FAR.AI opens its first office outside the US, anchored to the NUS AI Institute** — deepens an existing research relationship with Institute director Prof Mohan Kankanhalli; notable third-party validation of NUS as a global AI-safety research node. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Jul-31.html)
