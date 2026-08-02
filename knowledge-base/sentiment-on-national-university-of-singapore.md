@@ -2,9 +2,9 @@
 topic: "Sentiment on National University of Singapore"
 topic_slug: sentiment-on-national-university-of-singapore
 created: 2026-07-23
-last_run: 2026-08-01
-run_count: 10
-digest_count: 10
+last_run: 2026-08-02
+run_count: 11
+digest_count: 11
 entries:
   - fingerprint: nus-hylocc-hydrogen-low-carbon-consortium-jul2026
     title: "NUS launches Hydrogen and Low-Carbon Consortium to push decarbonisation from lab to industry"
@@ -305,6 +305,9 @@ entries:
 # Knowledge Base — Sentiment on National University of Singapore
 
 Running log of everything already covered, newest first. Each bullet links the digest it appeared in.
+
+## 2026-Aug-02
+- **Nothing new since the last run.** ~50 native-web-search candidates scanned (Firecrawl unavailable — out of credits); every lead either duplicated an already-logged story or was weeks-to-months old once its true publish date was checked. No filler added. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Aug-02.html)
 
 ## 2026-Aug-01
 - **NUS launches Hydrogen and Low-Carbon Consortium (HyLoCC)** — CHCI's 14 Jul 2026 Industry Day launch moves hydrogen/low-carbon tech from lab research toward industry-scale deployment; picked up by clean-energy trade press. [digest](../sentiment-on-national-university-of-singapore/sentiment-on-national-university-of-singapore-2026-Aug-01.html)
